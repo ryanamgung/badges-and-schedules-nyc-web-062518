@@ -1,5 +1,5 @@
 # Write your code here.
-
+attendees = []
 
 def badge_maker(name)
   return "Hello, my name is #{name}."
