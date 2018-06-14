@@ -14,5 +14,5 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(list)
-  
+  list.each_with_index
 end
