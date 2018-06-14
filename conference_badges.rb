@@ -1,5 +1,5 @@
 # Write your code here.
-attendees = []
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(name)
   return "Hello, my name is #{name}."
@@ -24,6 +24,6 @@ def assign_rooms(list)
 end
 
 def printer
-  batch_badge_creator()
-  assign_rooms()
+  batch_badge_creator(attendees)
+  assign_rooms(attendees)
 end
