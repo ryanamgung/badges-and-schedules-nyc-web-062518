@@ -20,3 +20,8 @@ def assign_rooms(list)
   }
   assignments
 end
+
+def printer
+  batch_badge_creator()
+  assign_rooms()
+end
